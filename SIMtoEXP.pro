@@ -7,7 +7,7 @@ TARGET = SIMtoEXP
 CONFIG += release
 DEPENDPATH += .
 INCLUDEPATH += ./src
-LIBS +=  -lgomp -lqwt
+LIBS +=  -lgomp -lqwt-qt5
 
 QMAKE_CXXFLAGS += -std=c++0x -fopenmp
 
